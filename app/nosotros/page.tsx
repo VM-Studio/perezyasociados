@@ -46,6 +46,7 @@ export default function Nosotros() {
                 fill
                 className="object-cover"
               />
+              <div className="absolute inset-0 bg-black/20 blur-[1px]" aria-hidden="true"></div>
             </div>
             <div className="space-y-6">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-gray-900">

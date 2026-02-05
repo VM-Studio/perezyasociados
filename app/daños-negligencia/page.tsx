@@ -42,7 +42,7 @@ export default function DanosGraves() {
               <div className="text-center lg:text-left order-2 lg:order-1">
                 <div className="inline-flex items-center justify-center lg:justify-start mb-3 sm:mb-4 md:mb-6">
                   <span className="text-[9px] sm:text-[10px] md:text-xs font-black tracking-[0.3em] text-gray-600 uppercase">
-                    Abogados Especializados en Daños
+                    Abogados Dedicados a Daños
                   </span>
                 </div>
 
@@ -53,7 +53,7 @@ export default function DanosGraves() {
                 </h1>
 
                 <p className="text-md sm:text-base md:text-lg lg:text-xl text-gray-600 font-medium mb-6 sm:mb-8 md:mb-10 max-w-xl mx-auto lg:mx-0">
-                  Negligencia médica, productos defectuosos, accidentes. <span className="font-black text-gray-900">Obtenemos indemnizaciones que duplican o triplican las ofertas iniciales.</span> 95% de casos cerrados sin ir a juicio.
+                  Negligencia médica, productos defectuosos, accidentes. <span className="font-black text-gray-900">Dedicados a casos con lesiones graves y víctimas fatales.</span> Te siguen pidiendo papeles o documentación los liquidadores del seguro. <span className="font-black text-gray-900">No es obligatorio cumplir con toda la burocracia muchas veces generada para desgastar.</span> <span className="font-black text-gray-900">Obtenemos indemnizaciones que duplican o triplican las ofertas iniciales.</span> 95% de casos cerrados sin ir a juicio.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-2xl mx-auto lg:mx-0">
@@ -84,6 +84,7 @@ export default function DanosGraves() {
                     priority
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
+                  <div className="absolute inset-0 bg-black/20 blur-[1px]" aria-hidden="true"></div>
                 </div>
               </div>
             </div>

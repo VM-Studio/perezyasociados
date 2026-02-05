@@ -84,6 +84,7 @@ export default function AbogadoHerenciasCordoba() {
                     priority
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
+                  <div className="absolute inset-0 bg-black/20 blur-[1px]" aria-hidden="true"></div>
                 </div>
               </div>
             </div>
