@@ -61,7 +61,7 @@ export default function DanosGraves() {
                     message="Hola, sufrí un daño grave y quiero consultar mi caso"
                     className="group inline-flex items-center justify-center px-5 sm:px-6 py-3 bg-blue-800 text-white text-xs sm:text-sm font-bold tracking-wide hover:shadow-2xl hover:scale-105 rounded-sm transition-all duration-300 whitespace-nowrap"
                   >
-                    Consultar mi caso gratis
+                    Consultar mi caso
                     <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">→</span>
                   </WhatsAppLink>
                   <Link 
@@ -80,7 +80,7 @@ export default function DanosGraves() {
                     src={HeroImage}
                     alt="Abogados especializados en daños graves"
                     fill
-                    className="object-cover"
+                    className="object-cover grayscale"
                     priority
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
