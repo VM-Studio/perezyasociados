@@ -38,11 +38,11 @@ export const metadata: Metadata = {
   keywords: "sucesiones córdoba, declaratoria de herederos, abogado sucesiones, herencias córdoba, tracto abreviado",
   icons: {
     icon: [
-      { url: '/fav.png' },
-      { url: '/fav.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico' },
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/png' },
     ],
-    shortcut: '/fav.png',
-    apple: '/fav.png',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 };
 
