@@ -33,9 +33,9 @@ const robotoSlab = Roboto_Slab({
 });
 
 export const metadata: Metadata = {
-  title: "Sucesiones y Declaratorias de Herederos en Córdoba | AUGUSTO Filí & Asociados",
-  description: "Estudio jurídico con más de 20 años de experiencia en sucesiones y declaratorias de herederos. Tramitamos más de 50 casos por año. 100% online.",
-  keywords: "sucesiones córdoba, declaratoria de herederos, abogado sucesiones, herencias córdoba, tracto abreviado",
+  title: "Pérez & Asociados – Abogados Penalistas | CABA y Provincia de Buenos Aires",
+  description: "Estudio jurídico con más de 20 años de experiencia en defensa penal urgente, excarcelaciones y causas complejas.",
+  keywords: "abogados penalistas, defensa penal, excarcelaciones, abogado penal CABA, derecho penal, perez y asociados",
   icons: {
     icon: [
       { url: '/favicon.ico' },

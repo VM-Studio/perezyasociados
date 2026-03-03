@@ -303,6 +303,14 @@ a, button, input, textarea, select { transition: all 0.2s cubic-bezier(0.4, 0, 0
   .whatsapp-btn { right: 1rem; bottom: calc(env(safe-area-inset-bottom, 12px) + 0.9rem); }
 }
 
+/* Desktop mediano: reducir gap navbar */
+@media (max-width: 1200px) and (min-width: 901px) {
+  .navbar { gap: 4rem; }
+  .nav-links { gap: 1.6rem; }
+  .nav-links a { font-size: 0.78rem; letter-spacing: 0.15em; }
+  .especialidades-grid { gap: 1.5rem; }
+}
+
 @media (max-width: 900px) {
   .navbar { height: 70px; }
   .nav-links { display: none; }
@@ -325,7 +333,7 @@ a, button, input, textarea, select { transition: all 0.2s cubic-bezier(0.4, 0, 0
 }
 
 @media (max-width: 768px) {
-  .navbar { padding: 0 1.5rem; justify-content: space-between; }
+  .navbar { padding: 0 1.5rem; justify-content: space-between; gap: 2rem; }
   .hero-textlogo { font-size: 3.1rem; }
   .sobre-visual { height: 300px; }
   .sobre-content { padding: 4rem 1.5rem; }
@@ -333,13 +341,9 @@ a, button, input, textarea, select { transition: all 0.2s cubic-bezier(0.4, 0, 0
   .contacto-info { display: flex; flex-direction: column; align-items: center; }
   .contacto-detail { width: 100%; justify-content: center; }
   .prensa .container, .resenias .container { padding: 0 1rem; }
-  .formacion-timeline::before { left: -3rem; }
-  .formacion-item { margin-right: 3rem; }
-  .formacion-item::before { left: -1rem; }
   .footer-grid { text-align: center; gap: 2.5rem; }
   .footer-logo { align-items: center; display: flex; flex-direction: column; }
 
-  /* Ocultar el logo del navbar en dispositivos móviles para evitar duplicación con el hero */
   .nav-logo { display: none !important; }
 }
 
@@ -353,24 +357,28 @@ a, button, input, textarea, select { transition: all 0.2s cubic-bezier(0.4, 0, 0
   .section-title { font-size: 1.8rem; }
   .especialidades, .sobre, .caracteriza, .formacion, .prensa, .videos, .resenias, .instagram, .faqs, .contacto { padding: 4rem 0; }
   .container { padding: 0 1.2rem; }
-  .formacion-timeline { padding-left: 1rem; }
-  .formacion-item { padding-left: 1.2rem; }
-  .formacion-item h4 { font-size: 1rem; }
+  .especialidades-grid { grid-template-columns: 1fr; max-width: 400px; margin: 0 auto; }
+  .sobre-content { padding: 3rem 1.2rem; }
+  .sobre-visual-stat { left: 1.5rem; bottom: 2.5rem; }
+  .sobre-visual-stat .num { font-size: 3.5rem; }
+  .sobre-visual-accent { bottom: 1.5rem; right: 1.5rem; width: 80px; height: 80px; }
+  .caracteriza-grid { gap: 1.2rem; }
+  .caracteriza-item { padding: 1.5rem 0.8rem; }
+  .contacto-detail { flex-direction: column; align-items: center; text-align: center; }
+  .cnn-video-embed { max-width: 100%; }
   .footer { padding: 3rem 1.5rem; }
+  .footer-grid { text-align: center; }
+  .footer-col { text-align: center; }
   .footer-bottom { display: flex; flex-direction: column; gap: 1rem; }
 
-  /* Evitar que la imagen del hero haga zoom excesivo en móviles */
   .hero {
-    /* Reducir la altura mínima para que la imagen no se escale en exceso */
     min-height: 420px;
-    /* permitir que el contenido determine la altura si es necesario */
     height: auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
 
   .hero-bg {
-    /* Ajustar el tamaño de fondo para que escale por altura en lugar de hacer zoom por anchura */
     background-size: auto 100%;
     background-position: center top;
     opacity: 0.38;

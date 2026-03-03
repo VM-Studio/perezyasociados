@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Footer from './components/Footer';
+import Footer from './components/next-web/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import './globals.css';
 import Navbar from './components/next-web/Nav';
@@ -15,22 +15,22 @@ import Contacto from './components/next-web/Contacto';
 import Ubicacion from './components/next-web/Ubicacion';
 
 export const metadata: Metadata = {
-  title: 'Filí y Asociados – Abogados en Córdoba | Especialistas en Derecho',
-  description: 'Estudio jurídico Filí y Asociados en Córdoba. Más de 20 años de experiencia en sucesiones, familia, indemnizaciones, accidentes de tránsito y derecho laboral.',
-  keywords: 'abogados cordoba, sucesiones, divorcios, accidentes de transito, derecho laboral, estudio juridico cordoba, augusto fili',
-  authors: [{ name: 'Filí y Asociados' }],
+  title: 'Pérez & Asociados – Abogados Penalistas | CABA y Provincia de Buenos Aires',
+  description: 'Estudio jurídico Pérez & Asociados. Más de 20 años de experiencia en defensa penal urgente, excarcelaciones y causas complejas en CABA y Provincia de Buenos Aires.',
+  keywords: 'abogados penalistas, defensa penal, excarcelaciones, abogado penal CABA, abogado penal buenos aires, derecho penal, perez y asociados',
+  authors: [{ name: 'Pérez & Asociados' }],
   robots: 'index, follow',
   openGraph: {
     type: 'website',
-    url: 'https://filiyasociados.com.ar/',
-    title: 'Filí y Asociados – Abogados | Córdoba',
-    description: 'Asesoramiento legal integral en Córdoba. Especialistas en casos de alta complejidad, sucesiones y derecho laboral.',
+    url: 'https://perezyasociados.com.ar/',
+    title: 'Pérez & Asociados – Abogados Penalistas',
+    description: 'Especialistas en defensa penal urgente en CABA y Provincia de Buenos Aires. Más de 20 años de experiencia.',
     images: [{ url: '/og.png' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Filí y Asociados – Abogados',
-    description: 'Excelencia legal y atención personalizada en Córdoba.',
+    title: 'Pérez & Asociados – Abogados Penalistas',
+    description: 'Defensa penal urgente en CABA y Provincia de Buenos Aires.',
     images: ['/og.png'],
   },
 };
@@ -39,23 +39,23 @@ export default function FiliyAsociadosPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    name: 'Filí y Asociados – Abogados',
-    image: 'https://filiyasociados.com.ar/favicon.png',
+    name: 'Pérez & Asociados – Abogados Penalistas',
+    image: 'https://perezyasociados.com.ar/favicon.png',
     '@id': '',
-    url: 'https://filiyasociados.com.ar/',
-    telephone: '+5493515186325',
+    url: 'https://perezyasociados.com.ar/',
+    telephone: '+5491158129324',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Blvr. Chacabuco 187, 1b',
-      addressLocality: 'Córdoba',
-      addressRegion: 'Córdoba',
-      postalCode: 'X5000',
+      streetAddress: 'Gral. Juan Domingo Perón 315',
+      addressLocality: 'CABA',
+      addressRegion: 'Buenos Aires',
+      postalCode: 'C1038',
       addressCountry: 'AR',
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: -31.4167,
-      longitude: -64.1833,
+      latitude: -34.6037,
+      longitude: -58.3838,
     },
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
