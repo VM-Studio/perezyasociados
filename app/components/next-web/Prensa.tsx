@@ -56,14 +56,12 @@ export default function Prensa() {
                   <div className="prensa-card-inner">
                     <div className="prensa-card-source">{noticia.source}</div>
                     <h3>{noticia.title}</h3>
-                    <a 
-                      href={noticia.link} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
+                    <span 
                       className="prensa-card-link"
+                      style={{ cursor: 'default' }}
                     >
                       Leer artículo <ArrowRight size={12} />
-                    </a>
+                    </span>
                   </div>
                 </div>
               ))}

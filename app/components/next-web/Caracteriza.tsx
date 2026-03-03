@@ -4,18 +4,18 @@ export default function Caracteriza() {
   const items = [
     {
       icon: Scale,
-      title: 'Liderazgo en Casos Complejos',
-      description: 'Trayectoria probada en litigios de alto perfil, estableciendo precedentes legales significativos en la jurisprudencia cordobesa.',
+      title: 'Intervención Inmediata',
+      description: 'Actuamos desde el primer minuto: presentamos excarcelaciones urgentes, impugnamos prisiones preventivas y asistimos en comisarías y juzgados para frenar abusos y proteger tus derechos.',
     },
     {
       icon: Users,
-      title: 'Red de Especialistas',
-      description: 'Más de dos décadas de colaboración con profesionales en diversas ramas jurídicas, garantizando máxima precisión en cada área.',
+      title: 'Equipo Especializado',
+      description: 'Más de 20 años de experiencia combinada en defensa penal estratégica. Un equipo de abogados penalistas preparado para resolver causas complejas con precisión y solidez técnica.',
     },
     {
       icon: Handshake,
-      title: 'Compromiso y Accesibilidad',
-      description: 'La excelencia legal al alcance de todos. Estamos listos para aplicar nuestra experiencia a su favor, guiándole a través de todo el proceso.',
+      title: 'Asesoramiento y Acompañamiento',
+      description: 'Hablás con un abogado antes de declarar. Te asesoramos en cada paso del proceso, trabajando para que recuperes tu libertad lo antes posible con una defensa personalizada.',
     },
   ];
 

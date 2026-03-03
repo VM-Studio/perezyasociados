@@ -1,34 +1,38 @@
-import { Users, Scale, Briefcase } from 'lucide-react';
+import { Scale } from 'lucide-react';
 
 export default function Especialidades() {
   const especialidades = [
     {
-      icon: Users,
-      title: 'Derecho Sucesorio y Familia',
-      description: 'Elaboramos estrategias sensibles y efectivas para asuntos personales y patrimoniales que requieren un manejo legal cuidadoso.',
-      items: [
-        { bold: 'Sucesiones y Herencias:', text: 'Gestión integral de Declaratoria de Herederos, Tracto Abreviado y manejo de conflictos para una distribución eficiente.' },
-        { bold: 'Divorcios y Acuerdos:', text: 'Asesoría en procesos de divorcio, redacción y negociación de Acuerdos Prenupciales.' },
-      ],
+      title: 'Excarcelaciones y prisiones preventivas',
+      description: 'Gestión inmediata para recuperar tu libertad mientras avanza el proceso judicial.',
     },
     {
-      icon: Scale,
-      title: 'Indemnizaciones y Daños',
-      description: 'Defendemos sus derechos para obtener la compensación justa que le corresponde por los perjuicios sufridos.',
-      items: [
-        { bold: 'Accidentes de Tránsito:', text: 'Reclamos y litigios por daños y lesiones derivados de siniestros viales.' },
-        { bold: 'Mala Praxis Médica:', text: 'Representación legal en casos de negligencia profesional en el ámbito de la salud.' },
-      ],
+      title: 'Delitos culposos e imprudentes',
+      description: 'Violación al deber de cuidado, negligencia, mala praxis, accidentes.',
     },
     {
-      icon: Briefcase,
-      title: 'Derecho Laboral',
-      description: 'Protegemos los derechos de trabajadores y empleadores con un enfoque equilibrado y resolución efectiva.',
-      items: [
-        { bold: 'Despidos y Reclamos:', text: 'Asesoramiento y representación en despidos con y sin justa causa.' },
-        { bold: 'Irregularidades:', text: 'Casos de empleo sin registrar (trabajo "en negro").' },
-        { bold: 'Contratación:', text: 'Redacción y revisión de contratos individuales.' },
-      ],
+      title: 'Delitos contra las personas',
+      description: 'Representación en homicidios, lesiones, violencia de género. Protegiendo tu versión.',
+    },
+    {
+      title: 'Delitos contra la propiedad',
+      description: 'Defensa en casos de robo, hurto, estafa y daños, buscando reducir o anular cargos.',
+    },
+    {
+      title: 'Derecho penal económico',
+      description: 'Defensa en estafas complejas, fraudes y delitos financieros con estrategias de alto nivel.',
+    },
+    {
+      title: 'Falsas denuncias y falsos testimonios',
+      description: 'Desacreditamos acusaciones infundadas detectando contradicciones y falta de pruebas.',
+    },
+    {
+      title: 'Recursos y apelaciones',
+      description: 'Impugnamos resoluciones injustas en todas las instancias judiciales disponibles.',
+    },
+    {
+      title: 'Asistencia a víctimas de delitos',
+      description: 'Representación legal para garantizar justicia y reparación a víctimas en causas penales.',
     },
   ];
 
@@ -38,28 +42,18 @@ export default function Especialidades() {
         <div className="especialidades-header">
           <div className="section-label">Servicios</div>
           <h2 className="section-title">Áreas de <em>Práctica</em></h2>
-          <p className="especialidades-sub">Asesoramiento legal integral en diversas áreas del derecho</p>
+          <p className="especialidades-sub">Asesoramiento legal integral en diversas áreas del derecho penal</p>
         </div>
         <div className="especialidades-grid">
-          {especialidades.map((esp, index) => {
-            const IconComponent = esp.icon;
-            return (
-              <div key={index} className="especialidad-card">
-                <div className="especialidad-card-icon">
-                  <IconComponent size={26} strokeWidth={1.5} />
-                </div>
-                <h3>{esp.title}</h3>
-                <p className="especialidad-desc-main">{esp.description}</p>
-                <ul className="especialidad-list">
-                  {esp.items.map((item, idx) => (
-                    <li key={idx}>
-                      <strong>{item.bold}</strong> {item.text}
-                    </li>
-                  ))}
-                </ul>
+          {especialidades.map((esp, index) => (
+            <div key={index} className="especialidad-card">
+              <div className="especialidad-card-icon">
+                <Scale size={26} strokeWidth={1.5} />
               </div>
-            );
-          })}
+              <h3>{esp.title}</h3>
+              <p className="especialidad-desc-main">{esp.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

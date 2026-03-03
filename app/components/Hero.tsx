@@ -31,9 +31,7 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-montserrat text-gray-900 mb-4 sm:mb-6 md:mb-8 tracking-tight">
-              Sucesiones y<br />
-              Declaratorias<br />
-              <span className="text-gray-800">de Herederos</span>
+              Especialistas en Defensa Penal Urgente en CABA y Provincia de Buenos Aires
             </h1>
 
             <p className="text-md sm:text-base md:text-lg lg:text-xl text-gray-600 font-medium mb-6 sm:mb-8 md:mb-10  max-w-xl mx-auto lg:mx-0">

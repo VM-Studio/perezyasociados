@@ -15,7 +15,7 @@ export default function WhatsAppButton({ message = "Hola,%20quiero%20consultar%2
 
   return (
     <a
-      href={`https://wa.me/5493515186325?text=${message}`}
+      href={`https://wa.me/5491158129324?text=${message}`}
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}

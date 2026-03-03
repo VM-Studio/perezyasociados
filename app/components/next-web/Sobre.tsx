@@ -14,27 +14,29 @@ export default function Sobre() {
       <div className="sobre-content">
         <div className="section-label">Sobre Nosotros</div>
         <h2 className="section-title">
-          Experiencia en alta complejidad<br />y <em>gran litigación</em>
+          Pérez <em>&</em> Asociados<br />Abogados <em>Penalistas</em>
         </h2>
         <p className="sobre-intro">
-          Ofrecemos un servicio legal integral que combina la experiencia en alta complejidad 
-          y la gran litigación con un compromiso inquebrantable y atención personalizada para cada cliente.
+          Más de 20 años de experiencia defendiendo imputados y víctimas en causas complejas
         </p>
         <div className="sobre-text">
           <p>
-            Con más de 20 años de trayectoria y solvencia profesional, el Dr. Augusto Filí ha 
-            consolidado un modelo de atención jurídica basado en la excelencia y la especialización estratégica.
+            En Pérez &amp; Asociados nos consolidamos como un estudio jurídico penal de excelencia, 
+            reconocido por nuestra capacidad para afrontar causas de alta complejidad y trascendencia.
           </p>
           <p>
-            Entendiendo que el derecho actual exige abordajes integrales, el Dr. Filí se encuentra 
-            asociado desde hace más de dos décadas con profesionales especialistas en diversas ramas jurídicas. 
-            Esta red de colaboración técnica permite brindar un servicio de máxima precisión en cada área, 
-            garantizando respuestas sólidas y personalizadas para cada caso.
+            Nuestra fortaleza radica en un equipo altamente preparado, liderado por el Dr. Martín Pérez, 
+            abogado penalista con más de 20 años de trayectoria y una formación académica avalada por 
+            posgrados y diplomaturas en litigación oral, interrogatorio y teoría del delito.
           </p>
           <p>
-            A lo largo de su carrera ha mantenido un profundo compromiso con la formación continua, 
-            capacitándose en instituciones de primer nivel a través de diversas diplomaturas que 
-            fortalecen una práctica profesional de vanguardia y alto desempeño.
+            A lo largo de las últimas dos décadas hemos defendido a imputados, procesados y víctimas 
+            en procesos resonantes, siempre con una metodología rigurosa que combina la teoría del caso 
+            con estrategias de litigación modernas.
+          </p>
+          <p>
+            Nuestra consolidación se apoya en tres pilares inquebrantables: autoridad técnica, 
+            resultados comprobados y compromiso absoluto con nuestros clientes.
           </p>
         </div>
       </div>

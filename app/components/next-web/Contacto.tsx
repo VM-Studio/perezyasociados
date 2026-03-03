@@ -29,7 +29,7 @@ export default function Contacto() {
               </div>
               <div>
                 <h4>Dirección</h4>
-                <p>Blvr. Chacabuco 187, 1 b<br />X5000IIB Córdoba, Argentina</p>
+                <p>CABA: Gral. Juan Domingo Perón 315<br />Caseros: Doctor Dellia Rosa 4837</p>
               </div>
             </div>
             
@@ -48,12 +48,12 @@ export default function Contacto() {
                 <h4>WhatsApp</h4>
                 <p>
                   <a 
-                    href="https://wa.me/5493515186325" 
+                    href="https://wa.me/5491158129324" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     onClick={handleWhatsAppClick}
                   >
-                   +54 9 3515 18-6325
+                   +54 9 11 5812-9324
                   </a>
                 </p>
               </div>
@@ -65,15 +65,7 @@ export default function Contacto() {
               </div>
               <div>
                 <h4>Instagram</h4>
-                <p>
-                  <a 
-                    href="https://www.instagram.com/abogado.fili/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                  >
-                    @abogado.fili
-                  </a>
-                </p>
+                <p>@</p>
               </div>
             </div>
           </div>

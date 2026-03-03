@@ -1,3 +1,5 @@
+'use client';
+
 import { Instagram as InstagramIcon } from 'lucide-react';
 
 export default function Instagram() {
@@ -13,7 +15,7 @@ export default function Instagram() {
           <div className="instagram-embed-wrap">
             <blockquote 
               className="instagram-media" 
-              data-instgrm-permalink="https://www.instagram.com/abogado.fili/"
+              data-instgrm-permalink=""
               data-instgrm-version="14"
               style={{ 
                 background: '#FFF',
@@ -37,9 +39,8 @@ export default function Instagram() {
         </div>
         <div className="instagram-cta">
           <a 
-            href="https://www.instagram.com/abogado.fili/" 
-            target="_blank" 
-            rel="noopener noreferrer"
+            href="#"
+            onClick={(e) => e.preventDefault()}
           >
             <InstagramIcon size={16} />
             Seguir en Instagram
